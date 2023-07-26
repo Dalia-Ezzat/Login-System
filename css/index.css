@@ -1,0 +1,84 @@
+/* -------------------global--------------------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+.clearfix {
+  clear: both;
+}
+
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+textarea {
+  resize: none;
+}
+
+.form-control:focus {
+  box-shadow: none;
+  border-color: #fb502f;
+}
+:root {
+  --main-color: white;
+  --second-color: ;
+}
+/* ---------- global end ---------- */
+
+.bg-main {
+  background: linear-gradient(to right, #0d426b, #6a041c) !important;
+}
+
+
+header,
+nav {
+  background: linear-gradient(to right, #0d426b, #6a041c) !important;
+}
+
+.content {
+  box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+
+/* ---------- login area start ---------- */
+.main-area {
+  box-shadow: 5px 5px 50px 0 #000b;
+}
+
+.main-area .content .new-page:hover {
+  text-decoration: underline !important;
+}
+.main-area i {
+  cursor: pointer;
+  padding-left: 0.3em;
+}
+.home {
+  min-height: calc(100vh - 70px);
+}
+
+.hello {
+  box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+  background: linear-gradient(to left, #0d426b, #6a041c) !important;
+}
+.brand,.color-second {
+  background: linear-gradient(to right, #f32170, #ff6b08, #cf23cf, #eedd44);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  font-weight: 600;
+  font-family: 'Lugrasimo', cursive !important;
+}
+
+.main {
+  margin-top: 5em !important;
+}
+
+/* ---------- login area end ---------- */
+@media screen and (max-width: 575.98px) {
+  :root {
+    font-size: 14px;
+  }
+}

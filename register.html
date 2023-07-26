@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>register System</title>
+ <!-- Ggoogle-fonts -->
+ <link rel="preconnect" href="https://fonts.googleapis.com" />
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+ <link href="https://fonts.googleapis.com/css2?family=Lugrasimo&display=swap" rel="stylesheet" />
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!--fontawesome  -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- normalize -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <!--& main css -->
+    <link rel="stylesheet" href="css/index.css" />
+  </head>
+
+  <body class="bg-main">
+
+<!-- ---------------signup-card------------------- -->
+    <main class="mt-5 p-3">
+      <div class="main-area container col-md-8 pt-4 mt-4">
+        <div class="text-center vstack p-3">
+          <h1 class=" pb-4 fw-bold brand">Smart Login System</h1>
+          <input
+            id="nameInput"
+            class="form-control"
+            type="text"
+            placeholder="Your Name"
+            required
+          />
+          <input
+            id="emailInput"
+            class="form-control my-3"
+            type="email"
+            placeholder="Your Email"
+            required
+          />
+          <div class="input-group mt-1 mb-3">
+            <input
+              id="passwordInput"
+              class="form-control border-end-0"
+              type="password"
+              placeholder="Your Password"
+              required
+            />
+            <div class="input-group-text bg-transparent border-start-0">
+              <i id="showPassword" class="fa-solid fa-eye text-secondary"></i>
+            </div>
+          </div>
+          <div id="incorrect" class="incorrect mt-1"></div>
+          <button
+            id="signUpBtn"
+            type="button"
+            class="btn-outline-warning btn mt-4 "
+          >
+            Sign Up <i class="fa-solid fa-user-plus"></i>
+          </button>
+          <p class="text-white mt-3 fw-light">
+            You have an account 
+               <a
+              href="index.html"
+              class="text-decoration-none fw-bold text-info"
+            >
+              Sign In</a
+            >
+          </p>
+        </div>
+      </div>
+    </main>
+
+
+
+
+    <!-- bootstrap js -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- sweetalert.js -->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <!-- main js -->
+    <script src="js/signup.js"></script>
+  </body>
+</html>

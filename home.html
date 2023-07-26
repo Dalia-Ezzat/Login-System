@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>welcome-page</title>
+    <!-- Ggoogle-fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lugrasimo&display=swap"
+      rel="stylesheet"
+    />
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!--fontawesome  -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- normalize -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <!--& main css -->
+    <link rel="stylesheet" href="css/index.css" />
+  </head>
+
+  <body class="">
+
+<!-- -----------navbar-------------- -->
+
+    <header class="py-3 shadow-lg">
+      <div class="container">
+        <nav class="d-flex justify-content-between">
+          <a
+            class="brand text-decoration-none text-white h4 fw-bold"
+            href="index.html" >
+            Smart Login System
+          </a>
+          <button id="logOutBtn" class="btn btn-outline-warning">
+            <a href="index.html" class="text-decoration-none text-white">Logout 
+              <i class="fa-solid fa-arrow-right-from-bracket fa-sm"></i></a>
+          
+          </button>
+        </nav>
+      </div>
+    </header>
+
+    <!-- ---------welcome-page------------ -->
+    <main id="home"
+      class="home d-flex justify-content-center align-items-center">
+      <div class="col-md-6 p-3 text-center hello rounded-4">
+        <h1 id="sayHello" class="color-second py-3 px-0 mb-0"></h1>
+        <p class="text-white fw-bold mt-0">You are now logged in</p>
+        <a
+          href="https://drive.google.com/drive/folders/1VZ7vd9-hr_UiHRvcZJigDmgM2yjaagm8"
+          target="_blank"
+          class="btn btn-outline-primary my-3"
+          >Go Somewhere</a
+        >
+      </div>
+    </main>
+
+    <!-- bootstrap js -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- sweetalert.js -->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <!-- main js -->
+    <script src="js/home.js"></script>
+  </body>
+</html>

@@ -20,7 +20,7 @@ signInBtn.addEventListener("click", function () {
          location.replace(pathHome);
       } else {
          incorrect.innerHTML =
-            ' <span class="text-white">~ incorrect email or password~</span>';
+            ' <span class="text-danger">~ incorrect email or password~</span>';
       }
    } else {
       incorrect.innerHTML =

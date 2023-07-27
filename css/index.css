@@ -20,9 +20,17 @@ textarea {
   resize: none;
 }
 
+.form-control{
+  background: transparent;
+  color: white;
+}
+.form-control::placeholder{
+  color: white;
+}
 .form-control:focus {
   box-shadow: none;
-  border-color: #fb502f;
+  /* border-color: #fb502f; */
+  background-color: transparent;
 }
 :root {
   --main-color: white;

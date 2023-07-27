@@ -37,7 +37,7 @@ input::placeholder:hover{
 }
 element.style {
   color:#ffffff;  
-  background-color:transparent;
+  background-color:transparent !important;
 }
 
 :root {

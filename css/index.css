@@ -35,6 +35,10 @@ input.form-control{
 input::placeholder:hover{
   color: white;
 }
+element.style {
+  color: rgb(239 239 241);
+  /* background-color: rgb(255, 255, 238); */
+}
 
 :root {
   --main-color: white;

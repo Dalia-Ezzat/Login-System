@@ -19,7 +19,6 @@
 textarea {
   resize: none;
 }
-
 input.form-control{
   background: transparent;
   color: #fff;
@@ -30,9 +29,13 @@ input.form-control{
 .form-control:focus {
   box-shadow: none;
   /* border-color: #fb502f; */
-  color: white;
+  color:#fff;
   background-color: transparent !important;
 }
+input::placeholder:hover{
+  color: white;
+}
+
 :root {
   --main-color: white;
   --second-color: ;
